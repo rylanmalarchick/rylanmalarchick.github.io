@@ -1,0 +1,68 @@
+baseURL = 'https://rylanmalarchick.com'
+languageCode = 'en-us'
+title = 'Rylan Malarchick'
+theme = 'PaperMod'
+enableEmoji = true
+
+[params]
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Rylan Malarchick"
+    subtitle = "Engineering Physics & Spacecraft Instrumentation at ERAU. Building open-source quantum control systems and FPGA accelerators."
+    imageUrl = ""
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = ""
+    
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects"
+    
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/rylanmalarchick"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/rylanmalarchick"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:me@rylanmalarchick.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

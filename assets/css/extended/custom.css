@@ -1,0 +1,84 @@
+/* Import JetBrains Mono font for that terminal/space aesthetic */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+/* Apply JetBrains Mono to headers and code */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+code, pre, .hljs {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 0.9em;
+}
+
+/* Clean accent color */
+:root {
+    --accent-color: #3b82f6;
+    --accent-hover: #60a5fa;
+}
+
+/* Dark theme customization */
+.dark {
+    --primary: var(--accent-color);
+    --theme: #1a1a1a;
+    --entry: #252525;
+    --code-bg: #1a1a1a;
+}
+
+/* Accent color for links and highlights */
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    color: var(--accent-hover);
+}
+
+/* Code blocks styling */
+.dark pre {
+    background: var(--code-bg) !important;
+    border: 1px solid #333;
+}
+
+/* Profile mode customization */
+.profile .main {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Button styling */
+.dark .button, .dark button, .dark .post-entry .entry-footer a {
+    border-color: var(--accent-color);
+}
+
+.dark .button:hover, .dark button:hover {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+/* Tag styling */
+.dark .post-tags a {
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid var(--accent-color);
+}
+
+.dark .post-tags a:hover {
+    background: var(--accent-color);
+}
+
+/* Scrollbar styling for webkit browsers */
+.dark ::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+}
+
+/* Selection color */
+::selection {
+    background: var(--accent-color);
+    color: white;
+}
+
+/* Social icons hover */
+.dark .social-icons a:hover svg {
+    color: var(--accent-color);
+}

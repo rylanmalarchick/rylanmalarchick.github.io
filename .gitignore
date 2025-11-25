@@ -1,0 +1,23 @@
+# Hugo
+public/
+resources/_gen/
+resources/.jsconfig.json
+.hugo_build.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Hugo binary (local installation)
+hugo
+hugo.exe
+LICENSE
+README.md
+hugo_extended_*.tar.gz
