@@ -1,7 +1,7 @@
 ---
 title: "Why I'm Moving My Quantum Simulator to an FPGA"
 date: 2025-11-24
-draft: false
+draft: true
 tags: ["FPGA", "Quantum Computing", "Hardware", "Performance"]
 summary: "The shift from Python-based simulation to Hardware-in-the-Loop using the Lattice ECP5."
 ---

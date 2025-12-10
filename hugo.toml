@@ -25,19 +25,23 @@ enableEmoji = true
   [params.profileMode]
     enabled = true
     title = "Rylan Malarchick"
-    subtitle = "Engineering Physics & Spacecraft Instrumentation at ERAU. Building open-source quantum control systems and FPGA accelerators."
+    subtitle = "Quantum Computing & HPC Research | Engineering Physics at ERAU"
     imageUrl = ""
     imageWidth = 120
     imageHeight = 120
     imageTitle = ""
     
     [[params.profileMode.buttons]]
-      name = "Projects"
+      name = "Research"
       url = "/projects"
     
     [[params.profileMode.buttons]]
       name = "About"
       url = "/about"
+    
+    [[params.profileMode.buttons]]
+      name = "Resume"
+      url = "/resume.pdf"
 
   [[params.socialIcons]]
     name = "github"
@@ -49,14 +53,20 @@ enableEmoji = true
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:me@rylanmalarchick.com"
+    url = "mailto:rylan1012@gmail.com"
 
 [menu]
   [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
+    identifier = "research"
+    name = "Research"
     url = "/projects/"
     weight = 10
+  
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 15
   
   [[menu.main]]
     identifier = "about"
