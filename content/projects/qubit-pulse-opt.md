@@ -51,8 +51,8 @@ QubitPulseOpt is a Python framework for quantum gate optimization using GRAPE (G
 ## Links
 
 - [GitHub Repository](https://github.com/rylanmalarchick/QubitPulseOpt)
-- arXiv Preprint (December 2025) — *link pending*
+- [arXiv Preprint (arXiv:2511.12799)](https://arxiv.org/abs/2511.12799)
 
 ## Citation
 
-Malarchick, R. (2025). "GRAPE Pulse Optimization for Quantum Gates with Hardware-Representative Noise." arXiv preprint.
+Malarchick, R. (2025). "GRAPE Pulse Optimization for Quantum Gates with Hardware-Representative Noise." arXiv:2511.12799.

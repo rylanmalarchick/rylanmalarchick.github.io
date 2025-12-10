@@ -7,8 +7,8 @@ summary: "Preprints, pending submissions, and technical reports"
 
 ## Preprints
 
-**Malarchick, R.** (2025). "GRAPE Pulse Optimization for Quantum Gates with Hardware-Representative Noise." *arXiv preprint.*
-- [View on arXiv](#) *(link pending)*
+**Malarchick, R.** (2025). "GRAPE Pulse Optimization for Quantum Gates with Hardware-Representative Noise." *arXiv:2511.12799.*
+- [View on arXiv](https://arxiv.org/abs/2511.12799)
 - [GitHub Repository](https://github.com/rylanmalarchick/QubitPulseOpt)
 
 ## Pending Submission
